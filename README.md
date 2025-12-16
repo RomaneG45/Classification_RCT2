@@ -18,6 +18,6 @@ Les méthodes suivent le même framework :
 6. Enregistrement dans les fichiers excel
 
 
-Les données des capteurs aux poignets et au thorax sont synchronisés ensemble en se référant aux annotations "Start_LW"/"Start_RW"/"Start_thorax". Les codes sont utilisables sur toutes les données RCT2, sauf sur les 2 fichiers suivants : 04.06.02_MS_02 (ne contient aucun annotation "Start_Thorax") et 04.09.01_MS_02 (le fichier du thorax dure 3 sec).
+Les données des capteurs aux poignets et au thorax sont synchronisés en se référant aux annotations "Start_LW"/"Start_RW"/"Start_thorax". Les codes sont utilisables sur toutes les données RCT2, sauf sur les 2 fichiers suivants : 04.06.02_MS_02 (ne contient aucune annotation "Start_Thorax") et 04.09.01_MS_02 (le fichier du thorax dure 3 sec).
 
-Actuellement (31/12/2025), seulement les données des capteurs des poignets sont utilisés afin de detecter les mouvements des membres supérieurs. Dans une optique de détection de la marche, les capteurs du thorax pourront être utilisés (ils sont déjà synchronisés avec les capteurs des poignets).
+Actuellement (31/12/2025), seulement les données des capteurs des poignets sont utilisées afin de detecter les mouvements des membres supérieurs. Dans une optique de détection de la marche, les capteurs du thorax pourront être utilisés (ils sont déjà synchronisés avec les capteurs des poignets).
