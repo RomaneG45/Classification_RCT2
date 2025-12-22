@@ -1,6 +1,6 @@
 # Classification_RCT2
 
-## Ce repositorie contient les codes de plusieurs méthodes de détection du mouvement, le but du projet étant trouver la méthode optimale en comparant les prédictions obtenues avec chaque seuil, aux annotations vidéos recueillies dans l'essai RCT1.
+## Ce repositorie contient les codes de plusieurs méthodes de détection du mouvement, le but du projet étant trouver la méthode optimale en comparant les prédictions obtenues avec chaque seuil, aux annotations vidéos recueillies dans l'essai RCT2.
 
 ## Les différentes méthodes testées
 - Seuil AC>0
