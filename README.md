@@ -13,6 +13,9 @@
 - Puissance > 1 avec fenetre glissantes non chevauchantes de 10s
 - RandomForest sur les Activity Counts (Imbalanced Random Forest avec validation croisée en LeaveOneOut)
 
+## A changer lors de l'execution
+Faire attention aux chemins des fichiers et à l'index des fichiers lus dans le dossier renseigné. Pour lire 1 enregistrement à la fois il faut lire 4 fichiers : le capteur du membre dominant, le capteur du membre non dominant, le capteur du thorax et le fichier d'annotation.
+
 ## Résultats et conclusions
 Les méthodes AC>0, AC>0 avec fenetre de 2s, AC>2, AC>2 avec fenetre de 2s, puissance>1, puissance>1 avec fenetre de 2s et le seuil adaptatif de Coley montrent des résultats généraux bons, mais une prédiction de la sédentarité très mauvaise (résultats retrouvés dans la littérature).
 En revanche, Random Forest présente des taux d'accuracy moyens, bien inférieurs aux autres méthodes.
