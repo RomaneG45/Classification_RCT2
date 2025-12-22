@@ -23,7 +23,7 @@ La même méthode est appliquée pour tester les différents seuils :
 1. Récupération des données actimétriques, transformation en Activty Counts et synchronisation avec les annotations vidéos et entre les différents capteurs. Les annotations étant définies aux millièmes de seconde près, un vote à la majorité est effectué pour réduire à une annotation par seconde. Par exemple, si l'annotation "mouvement" est présente jusque la seconde 10,786 : la seconde 10 est définie comme "mouvement", car le temps dépasse la moitié d'une seconde. L'affichage graphique permet ensuite de vérifier la bonne synchronisation des données.
 2. Facultatif suivant la méthode : récupération et nettoyage des données gyroscopiques.
 3. Création et prédiction du seuil
-4. Nettoyage des données et des annotations: suppression des secondes sans information sur le mouvement (annotations "non noté" et secondes représantant le décalage entre 2 annotations ou en extrémité d'enregistrement).
+4. Nettoyage des données et des annotations: suppression des secondes sans information sur le mouvement (annotations "non noté" et secondes représentant le décalage entre 2 annotations ou en extrémité d'enregistrement).
 5. Calcul des métriques : Accuracy et F1 scores (F1 mouvement, F1 non mouvement)
 6. Enregistrement dans des fichiers Excel de sortie.
 
